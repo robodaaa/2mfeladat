@@ -1,0 +1,70 @@
+.address-container {
+    width: 90%;
+    height: 175px;
+    margin: 15px 5%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #eff1f3;
+}
+.address-zip,
+.address-country,
+.address-city,
+.address-street,
+.address-house {
+    margin: 5px 5px;
+}
+.address-bill-btn,
+.address-deli-btn,
+.address-edit-btn {
+    float: right;
+    margin: 15px 5px;
+    background: #fff;
+    border: 1px solid  #007065;
+    color:  #007065;
+    border-radius: 5px;
+}
+.address-bill-btn:hover,
+.address-deli-btn:hover,
+.address-edit-btn:hover {
+    border: 1px solid  #ff502f;
+    color:  #ff502f;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .address-container {
+        width: 90%;
+        height: 50px;
+        margin: 15px 5%;
+    }
+    .address-zip {
+        float: left;
+        width: 5%;
+        margin: 15px 5px;
+    }
+    .address-country {
+        float: left;
+        width: 10%;
+        margin: 15px 5px;
+    }
+    .address-city {
+        float: left;
+        width: 15%;
+        margin: 15px 5px;
+    }
+    .address-street {
+        float: left;
+        width: 25%;
+        margin: 15px 5px;
+    }
+    .address-house {
+        float: left;
+        width: 5%;
+        margin: 15px 5px;
+    }
+    .address-bill-btn,
+    .address-deli-btn,
+    .address-edit-btn {
+        float: right;
+        margin: 15px 5px;
+    }
+} 

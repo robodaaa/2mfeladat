@@ -1,0 +1,63 @@
+.customer-edit-container {
+    width: 90%;
+    background-color: #fff;
+    margin: 15px auto;
+    box-shadow: 1px 1px 1px #eff1f3;
+    text-align: center;
+    padding-bottom: 30px;
+} 
+.customer-edit-input {
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: 3px 0;
+}
+.customer-btn,
+.customer-btn-delete {
+    width: 80%;
+    background: #007065;
+    border: 1px solid #007065;
+    color: #fff;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.customer-btn-delete {
+    background: #700000;
+    border: 1px solid #700000;
+}
+
+.customer-btn:hover {
+    background: #fff;
+    color: #007065;
+}
+.customer-btn-delete:hover {
+    background: #fff;
+    color: #700000;
+}
+
+@media only screen and (min-width: 768px) {
+    .customer-edit-container {
+        width: 90%;
+        margin: 15px auto;
+        padding-bottom: 30px;
+    }
+    .customer-btn, 
+    .customer-btn-delete,
+    .customer-edit-input {
+        width: 80%;
+        height: 35px;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .customer-edit-container {
+        width: 70%;
+    }
+    .customer-btn, 
+    .customer-btn-delete,
+    .customer-edit-input {
+        width: 50%;
+        height: 25px;
+        margin: 3px 25%;
+    }
+}

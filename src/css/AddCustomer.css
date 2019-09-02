@@ -1,0 +1,44 @@
+.add-container {
+    width: 90%;
+    background-color: #fff;
+    margin: 15px auto;
+    box-shadow: 1px 1px 1px #eff1f3;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.add-container-input, .add-btn {
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: 3px 0;
+}
+.add-btn {
+    background: #007065;
+    color: #fff;
+    border: none;
+}
+.emptyError {
+    color: red;
+}
+
+@media only screen and (min-width: 768px) {
+    .add-container {
+        width: 90%;
+        margin: 15px auto;
+        padding-bottom: 30px;
+    }
+    .add-container-input, .add-btn {
+        width: 50%;
+        height: 35px;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .add-container {
+        width: 70%;
+    }
+    .add-container-input, .add-btn {
+        width: 50%;
+        height: 25px;
+    }
+}

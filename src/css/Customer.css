@@ -1,0 +1,63 @@
+
+.customer-container {
+    width: 90%;
+    height: 135px;
+    margin: 15px 5%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #eff1f3;
+}
+.customer-name, 
+.customer-email,
+.customer-tax {
+    float: left;
+    width: 100%;
+    margin: 3px 15px;
+}
+
+.customer-address-btn {
+    float: right;
+    margin: 15px 0;
+    background: #fff;
+    border: 1px solid #007065;
+    box-shadow: none;
+    color: #007065;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.customer-edit-btn {
+    float: right;
+    margin: 15px 15px 15px 3px;
+    background: #fff;
+    border: 1px solid #007065;
+    box-shadow: none;
+    color: #007065;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+.customer-address-btn:hover,
+.customer-edit-btn:hover {
+    border: 1px solid #ff502f;
+    color: #ff502f;
+}
+
+@media only screen and (min-width: 768px) {
+    .customer-container {
+        width: 90%;
+        height: 50px;
+        margin: 15px 5%;
+    }
+    .customer-name, 
+    .customer-email,
+    .customer-tax {
+        width: 15%;
+        margin: 15px 15px;
+    }
+    .customer-email{
+        width: 35%;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+
+}

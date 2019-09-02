@@ -1,0 +1,20 @@
+/* Szabó Róbert 2019.08.29. MENU CSS */
+
+.menu-container {
+    width: 100%;
+    padding: 10px 0;
+    background: #007065;
+    color: #fff;
+
+}
+.menu-title {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin: 0 5%;
+}
+.user-btn {
+    float: right;
+    margin: 0 5%;
+}
